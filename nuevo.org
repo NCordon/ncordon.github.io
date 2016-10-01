@@ -1,0 +1,6 @@
+
+** TODO Poner .jekyll-metadata in .gitignore
+
+
+
+
