@@ -38,3 +38,5 @@ def funcionR <- function(par, par2){
 Probando latex:
 
 $$\frac{x+1}{x^3-3+\int_a^b x}$$
+
+\\( 1/x^{2} \\)
