@@ -6,9 +6,59 @@
 </description>
     <link>http://example.com/</link>
     <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Oct 2016 21:11:16 +0200</pubDate>
-    <lastBuildDate>Sat, 01 Oct 2016 21:11:16 +0200</lastBuildDate>
+    <pubDate>Sun, 02 Oct 2016 16:58:37 +0200</pubDate>
+    <lastBuildDate>Sun, 02 Oct 2016 16:58:37 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Vector Space where norms aren't equivalent</title>
+        <description>&lt;p&gt;A week ago, we were asked in Fourier Series class to find a counterexample to prove that norms aren’t equivalent in vector space &lt;script type=&quot;math/tex&quot;&gt;L^2(a,b)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;The definition for this space is:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+L^2(a,b) = \left\{ f\:(a,b)  \rightarrow \mathbb{R} \quad measurable: \int_a^b f^2(x)dx &lt; + \infty \right\} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;The norm based on the dot product &lt;script type=&quot;math/tex&quot;&gt;% &lt;![CDATA[
+&lt;f,g&gt; = \int_a^b f \cdot g %]]&gt;&lt;/script&gt; is:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\|f\|_2 = \sqrt{&lt;f,f&gt;} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;We can define another norm as: &lt;script type=&quot;math/tex&quot;&gt;\|f\|_{*} = \int_a^b \lvert f \rvert&lt;/script&gt;. It’s easy to prove that it’s a norm.&lt;/p&gt;
+
+&lt;p&gt;Let &lt;script type=&quot;math/tex&quot;&gt;f_n: (a,b) \rightarrow \mathbb{R}&lt;/script&gt;, with &lt;script type=&quot;math/tex&quot;&gt;f_n(x)= e^{nx}&lt;/script&gt; for all &lt;script type=&quot;math/tex&quot;&gt;n\in \mathbb{N}&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Thus:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\|f_n\|_2 =  \sqrt{\int_a^b{f_{n}^2}} = \frac{1}{\sqrt{2n}} \cdot e^{n(b-a)}&lt;/script&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\|f_n\|_{*} = \sqrt{\int_a^b{f_{n}^2}} = \frac{1}{n} \cdot e^{n(b-a)}&lt;/script&gt;
+
+&lt;p&gt;We remember that for those two norms to be equivalent in &lt;script type=&quot;math/tex&quot;&gt;L^2(a,b)&lt;/script&gt; (vector space), there have to be &lt;script type=&quot;math/tex&quot;&gt;\lambda, \delta \in \mathbb{R^{+}}&lt;/script&gt;, verifying
+that: &lt;script type=&quot;math/tex&quot;&gt;\delta \|f\|_{*} \le \|f\|_2 \le \lambda \|f\|_{*} \quad \forall f\in L^2(a,b)&lt;/script&gt;.&lt;/p&gt;
+
+&lt;p&gt;Therefore:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\|f_n\|_{2} \le \lambda \|f_n\|_{*} \Leftrightarrow \lambda\frac{\sqrt{2n}}{n} \ge 1&lt;/script&gt;
+
+&lt;p&gt;But:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\left\{\frac{\sqrt{2n}}{n}\right\} \rightarrow 0&lt;/script&gt;
+
+&lt;p&gt;So we arrived at a contradiction.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 02 Oct 2016 00:00:00 +0200</pubDate>
+        <link>http://example.com/analysis/fourier-series/2016/10/02/spaces-where-norms-arent-equivalent.html</link>
+        <guid isPermaLink="true">http://example.com/analysis/fourier-series/2016/10/02/spaces-where-norms-arent-equivalent.html</guid>
+        
+        
+        <category>analysis</category>
+        
+        <category>fourier-series</category>
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -26,6 +76,19 @@
 
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
+&lt;p&gt;Probando código:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+def funcionR &amp;lt;- function(par, par2){
+    print(par+par2)
+}
+ 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Probando latex:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{x+1}{x^3-3+\int_a^b x}&lt;/script&gt;
 </description>
         <pubDate>Sat, 01 Oct 2016 13:34:00 +0200</pubDate>
         <link>http://example.com/jekyll/update/2016/10/01/welcome-to-jekyll.html</link>

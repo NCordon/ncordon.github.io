@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Vector Space where norms aren't equivalent</title>
+
+  <script type="text/javascript"
+          src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+
+</head>
+
+<body>
+  <h1><a href="">Vector Space where norms aren't equivalent</a></h1>
+  <p>A week ago, we were asked in Fourier Series class to find a counterexample to prove that norms aren’t equivalent in vector space <script type="math/tex">L^2(a,b)</script>.</p>
+
+<p>The definition for this space is:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+L^2(a,b) = \left\{ f\:(a,b)  \rightarrow \mathbb{R} \quad measurable: \int_a^b f^2(x)dx < + \infty \right\} %]]></script>
+
+<p>The norm based on the dot product <script type="math/tex">% <![CDATA[
+<f,g> = \int_a^b f \cdot g %]]></script> is:</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\|f\|_2 = \sqrt{<f,f>} %]]></script>
+
+<p>We can define another norm as: <script type="math/tex">\|f\|_{*} = \int_a^b \lvert f \rvert</script>. It’s easy to prove that it’s a norm.</p>
+
+<p>Let <script type="math/tex">f_n: (a,b) \rightarrow \mathbb{R}</script>, with <script type="math/tex">f_n(x)= e^{nx}</script> for all <script type="math/tex">n\in \mathbb{N}</script>.</p>
+
+<p>Thus:</p>
+
+<script type="math/tex; mode=display">\|f_n\|_2 =  \sqrt{\int_a^b{f_{n}^2}} = \frac{1}{\sqrt{2n}} \cdot e^{n(b-a)}</script>
+
+<script type="math/tex; mode=display">\|f_n\|_{*} = \sqrt{\int_a^b{f_{n}^2}} = \frac{1}{n} \cdot e^{n(b-a)}</script>
+
+<p>We remember that for those two norms to be equivalent in <script type="math/tex">L^2(a,b)</script> (vector space), there have to be <script type="math/tex">\lambda, \delta \in \mathbb{R^{+}}</script>, verifying
+that: <script type="math/tex">\delta \|f\|_{*} \le \|f\|_2 \le \lambda \|f\|_{*} \quad \forall f\in L^2(a,b)</script>.</p>
+
+<p>Therefore:</p>
+
+<script type="math/tex; mode=display">\|f_n\|_{2} \le \lambda \|f_n\|_{*} \Leftrightarrow \lambda\frac{\sqrt{2n}}{n} \ge 1</script>
+
+<p>But:</p>
+
+<script type="math/tex; mode=display">\left\{\frac{\sqrt{2n}}{n}\right\} \rightarrow 0</script>
+
+<p>So we arrived at a contradiction.</p>
+
+
+</body>
+
+</html>
