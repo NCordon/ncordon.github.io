@@ -22,9 +22,9 @@ Let $$f_n: (a,b) \rightarrow \mathbb{R}$$, with $$f_n(x)= e^{nx}$$ for all $$n\i
 
 Thus: 
 
-$$\|f_n\|_2 =  \sqrt{\int_a^b{f_{n}^2}} = \frac{1}{\sqrt{2n}} \cdot e^{n(b-a)}$$
+$$ \|f_n\|_2 =  \sqrt{\int_a^b{f_{n}^2}} = \frac{1}{\sqrt{2n}} \cdot e^{n(b-a)} $$
 
-$$\|f_n\|_{*} = \sqrt{\int_a^b{f_{n}^2}} = \frac{1}{n} \cdot e^{n(b-a)}$$
+$$ \|f_n\|_{*} = \sqrt{\int_a^b{f_{n}^2}} = \frac{1}{n} \cdot e^{n(b-a)} $$
 
 
 We remember that for those two norms to be equivalent in $$L^2(a,b)$$ (vector space), there have to be $$\lambda, \delta \in \mathbb{R^{+}}$$, verifying
