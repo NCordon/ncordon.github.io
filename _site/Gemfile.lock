@@ -134,6 +134,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-github-metadata (= 2.0.2)
   minima
 
 RUBY VERSION
