@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://example.com/</link>
-    <atom:link href="http://example.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Oct 2016 02:16:44 +0200</pubDate>
-    <lastBuildDate>Mon, 03 Oct 2016 02:16:44 +0200</lastBuildDate>
+    <title>NCordon</title>
+    <description>I'm Nacho. I study Mathematics and Computer Science degree at UGR. I started this blog to share things I daily do related to my degree. I specially like Maths</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 06 Oct 2016 18:33:41 +0200</pubDate>
+    <lastBuildDate>Thu, 06 Oct 2016 18:33:41 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -50,8 +49,8 @@ that: &lt;script type=&quot;math/tex&quot;&gt;\delta \|f\|_{*} \le \|f\|_2 \le \
 
 </description>
         <pubDate>Sun, 02 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://example.com/analysis/fourier-series/2016/10/02/spaces-where-norms-arent-equivalent.html</link>
-        <guid isPermaLink="true">http://example.com/analysis/fourier-series/2016/10/02/spaces-where-norms-arent-equivalent.html</guid>
+        <link>/analysis/fourier-series/2016/10/02/spaces-where-norms-arent-equivalent.html</link>
+        <guid isPermaLink="true">/analysis/fourier-series/2016/10/02/spaces-where-norms-arent-equivalent.html</guid>
         
         
         <category>analysis</category>
