@@ -5,7 +5,7 @@ date: 2016-10-15
 categories: latex telegram maths
 ---
 
-Yesterday [@M42](https://github.com/m42), a good friend of mine told mine there was a partial solution to render $$\LaTeX$$ equations in Telegram Desktop, [ChatJax](http://www.math.ucla.edu/~robjohn/math/mathjax.html), a code line that inserts a `<script>` html tag in the current page's `<head>`, allowing sent $$\LaTeX$$ code in a Telegram Desktop Window to render. This could be saved as a handy boomark and be executed every time we'd like to render sent equations.
+Yesterday [@M42](https://github.com/m42), a good friend of mine told me there was a partial solution to render $$\LaTeX$$ equations in Telegram Desktop, [ChatJax](http://www.math.ucla.edu/~robjohn/math/mathjax.html), a code line that inserts a `<script>` html tag in the current page's `<head>`, allowing sent $$\LaTeX$$ code in a Telegram Desktop Window to render. This could be saved as a handy boomark and be executed every time we'd like to render sent equations.
 
 However, this had a big problem, appart from the obvious necessity of clicking the boomark every time we'd like to use it. If we started to use it in an open conversation, it would render the sent equations properly, but from now on, it would also try to render all non sent equations, producing a (curious) unwanted result.
 
