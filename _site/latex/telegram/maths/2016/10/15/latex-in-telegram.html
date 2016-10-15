@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>LaTeX in Telegram Desktop</title>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ['\(', '\)'] ],
+      displayMath: [ ['$$','$$'] ],
+      processEscapes: true,
+    }
+    });
+  </script>
+  <script type="text/javascript" async
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+</head>
+
+<body>
+  <h1><a href="">LaTeX in Telegram Desktop</a></h1>
+  <p>Yesterday <a href="https://github.com/m42">@M42</a>, a good friend of mine told mine there was a partial solution to render <script type="math/tex">\LaTeX</script> equations in Telegram Desktop, <a href="http://www.math.ucla.edu/~robjohn/math/mathjax.html">ChatJax</a>, a code line that inserts a <code class="highlighter-rouge">&lt;script&gt;</code> html tag in the current page’s <code class="highlighter-rouge">&lt;head&gt;</code>, allowing sent <script type="math/tex">\LaTeX</script> code in a Telegram Desktop Window to render. This could be saved as a handy boomark and be executed every time we’d like to render sent equations.</p>
+
+<p>However, this had a big problem, appart from the obvious necessity of clicking the boomark every time we’d like to use it. If we started to use it in an open conversation, it would render the sent equations properly, but from now on, it would also try to render all non sent equations, producing a (curious) unwanted result.</p>
+
+<p><img src="../images/2016-10-15-latex-in-telegram-unsent.png" alt="Unsent message" /></p>
+
+<p><img src="../images/2016-10-15-latex-in-telegram-sent.png" alt="Sent message" /></p>
+
+<p>So I started finding a solution, and after one hour of trying to make this code work automatically (with <code class="highlighter-rouge">GreaseMonkey</code>), once started the browser, and realizing that I have to target only a part of the Telegram Desktop Window to be renderized, I arrived to an useful <a href="http://docs.mathjax.org/en/latest/advanced/typeset.html?highlight=queue">MathJax Documentation</a> about doing so with <code class="highlighter-rouge">MathJax.Hub.Queue</code> and it worked out!.</p>
+
+<p>I’ve written a public <code class="highlighter-rouge">gist</code> <a href="https://gist.github.com/NCordon/090a6c208e61a1059357d6e8fba03087">here</a> with the an <code class="highlighter-rouge">user.js GreaseMonkey</code> extension to render equations properly in Telegram Desktop. I’ve only given it a try in <code class="highlighter-rouge">Firefox</code>, and it works well!.</p>
+
+<p><img src="../images/2016-10-15-latex-in-telegram-final-result.png" alt="Sent message" /></p>
+
+<p>To download it, <code class="highlighter-rouge">GreaseMonkey</code> extension must be installed in the current browser, and it suffices to click <code class="highlighter-rouge">Raw</code> from the <code class="highlighter-rouge">gist</code> page, and it will pop up a confirmation to install it as an user script. To write inline <script type="math/tex">\LaTeX</script>, use a simple <code class="highlighter-rouge">$</code>. To write centered <script type="math/tex">\LaTeX</script>, use <code class="highlighter-rouge">$$</code>.</p>
+
+</body>
+
+</html>

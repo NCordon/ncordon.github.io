@@ -5,9 +5,40 @@
     <description>I'm Nacho. I study Mathematics and Computer Science degree at UGR. I started this blog to share things I daily do related to my degree. I specially like Maths</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 Oct 2016 19:04:22 +0200</pubDate>
-    <lastBuildDate>Thu, 06 Oct 2016 19:04:22 +0200</lastBuildDate>
+    <pubDate>Sat, 15 Oct 2016 17:03:18 +0200</pubDate>
+    <lastBuildDate>Sat, 15 Oct 2016 17:03:18 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>LaTeX in Telegram Desktop</title>
+        <description>&lt;p&gt;Yesterday &lt;a href=&quot;https://github.com/m42&quot;&gt;@M42&lt;/a&gt;, a good friend of mine told mine there was a partial solution to render &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt; equations in Telegram Desktop, &lt;a href=&quot;http://www.math.ucla.edu/~robjohn/math/mathjax.html&quot;&gt;ChatJax&lt;/a&gt;, a code line that inserts a &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;script&amp;gt;&lt;/code&gt; html tag in the current page’s &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;head&amp;gt;&lt;/code&gt;, allowing sent &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt; code in a Telegram Desktop Window to render. This could be saved as a handy boomark and be executed every time we’d like to render sent equations.&lt;/p&gt;
+
+&lt;p&gt;However, this had a big problem, appart from the obvious necessity of clicking the boomark every time we’d like to use it. If we started to use it in an open conversation, it would render the sent equations properly, but from now on, it would also try to render all non sent equations, producing a (curious) unwanted result.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/2016-10-15-latex-in-telegram-unsent.png&quot; alt=&quot;Unsent message&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/2016-10-15-latex-in-telegram-sent.png&quot; alt=&quot;Sent message&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So I started finding a solution, and after one hour of trying to make this code work automatically (with &lt;code class=&quot;highlighter-rouge&quot;&gt;GreaseMonkey&lt;/code&gt;), once started the browser, and realizing that I have to target only a part of the Telegram Desktop Window to be renderized, I arrived to an useful &lt;a href=&quot;http://docs.mathjax.org/en/latest/advanced/typeset.html?highlight=queue&quot;&gt;MathJax Documentation&lt;/a&gt; about doing so with &lt;code class=&quot;highlighter-rouge&quot;&gt;MathJax.Hub.Queue&lt;/code&gt; and it worked out!.&lt;/p&gt;
+
+&lt;p&gt;I’ve written a public &lt;code class=&quot;highlighter-rouge&quot;&gt;gist&lt;/code&gt; &lt;a href=&quot;https://gist.github.com/NCordon/090a6c208e61a1059357d6e8fba03087&quot;&gt;here&lt;/a&gt; with the an &lt;code class=&quot;highlighter-rouge&quot;&gt;user.js GreaseMonkey&lt;/code&gt; extension to render equations properly in Telegram Desktop. I’ve only given it a try in &lt;code class=&quot;highlighter-rouge&quot;&gt;Firefox&lt;/code&gt;, and it works well!.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../images/2016-10-15-latex-in-telegram-final-result.png&quot; alt=&quot;Sent message&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To download it, &lt;code class=&quot;highlighter-rouge&quot;&gt;GreaseMonkey&lt;/code&gt; extension must be installed in the current browser, and it suffices to click &lt;code class=&quot;highlighter-rouge&quot;&gt;Raw&lt;/code&gt; from the &lt;code class=&quot;highlighter-rouge&quot;&gt;gist&lt;/code&gt; page, and it will pop up a confirmation to install it as an user script. To write inline &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt;, use a simple &lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt;. To write centered &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 Oct 2016 00:00:00 +0200</pubDate>
+        <link>/latex/telegram/maths/2016/10/15/latex-in-telegram.html</link>
+        <guid isPermaLink="true">/latex/telegram/maths/2016/10/15/latex-in-telegram.html</guid>
+        
+        
+        <category>latex</category>
+        
+        <category>telegram</category>
+        
+        <category>maths</category>
+        
+      </item>
     
       <item>
         <title>Vector Space where norms aren't equivalent</title>
@@ -49,13 +80,15 @@ that: &lt;script type=&quot;math/tex&quot;&gt;\delta \|f\|_{*} \le \|f\|_2 \le \
 
 </description>
         <pubDate>Sun, 02 Oct 2016 00:00:00 +0200</pubDate>
-        <link>/analysis/fourier-series/2016/10/02/spaces-where-norms-arent-equivalent.html</link>
-        <guid isPermaLink="true">/analysis/fourier-series/2016/10/02/spaces-where-norms-arent-equivalent.html</guid>
+        <link>/analysis/fourier-series/math/2016/10/02/spaces-where-norms-arent-equivalent.html</link>
+        <guid isPermaLink="true">/analysis/fourier-series/math/2016/10/02/spaces-where-norms-arent-equivalent.html</guid>
         
         
         <category>analysis</category>
         
         <category>fourier-series</category>
+        
+        <category>math</category>
         
       </item>
     

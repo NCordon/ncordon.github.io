@@ -2,7 +2,7 @@
 layout: post
 title:  "Vector Space where norms aren't equivalent"
 date:   2016-10-02
-categories: analysis fourier-series
+categories: analysis fourier-series math
 ---
 
 A week ago, we were asked in Fourier Series class to find a counterexample to prove that norms aren't equivalent in vector space $$L^2(a,b)$$.
