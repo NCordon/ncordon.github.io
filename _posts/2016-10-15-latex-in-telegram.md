@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: "LaTeX in Telegram Desktop"
 date: 2016-10-15
 categories: latex telegram maths
