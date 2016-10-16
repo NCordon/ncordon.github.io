@@ -5,8 +5,8 @@
     <description>I'm Nacho. I study Mathematics and Computer Science degree at UGR. I started this blog to share things I daily do related to my degree. I specially like Maths</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 17:50:56 +0200</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 17:50:56 +0200</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 17:56:47 +0200</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 17:56:47 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -31,7 +31,7 @@
 
 &lt;p&gt;To download it, &lt;code class=&quot;highlighter-rouge&quot;&gt;GreaseMonkey&lt;/code&gt; extension must be installed in the current browser, and it suffices to click &lt;code class=&quot;highlighter-rouge&quot;&gt;Raw&lt;/code&gt; from the &lt;code class=&quot;highlighter-rouge&quot;&gt;gist&lt;/code&gt; page, and it will pop up a confirmation to install it as an user script. To write inline &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt;, use a simple &lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt;. To write centered &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;The script is also available from &lt;code class=&quot;highlighter-rouge&quot;&gt;GreasyFork&lt;/code&gt; &lt;a href=&quot;https://greasyfork.org/en/scripts/24067-textelegram&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The script is also available from &lt;code class=&quot;highlighter-rouge&quot;&gt;GreasyFork&lt;/code&gt; &lt;a href=&quot;https://greasyfork.org/en/scripts/24067-tex-for-telegram&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Oct 2016 00:00:00 +0200</pubDate>
         <link>/latex/telegram/maths/2016/10/15/latex-in-telegram.html</link>

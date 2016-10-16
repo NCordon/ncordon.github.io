@@ -25,4 +25,4 @@ I've written a public `gist` [here](https://gist.github.com/NCordon/090a6c208e61
 
 To download it, `GreaseMonkey` extension must be installed in the current browser, and it suffices to click `Raw` from the `gist` page, and it will pop up a confirmation to install it as an user script. To write inline $$\LaTeX$$, use a simple `$`. To write centered $$\LaTeX$$, use `$$`.
 
-The script is also available from `GreasyFork` [here](https://greasyfork.org/en/scripts/24067-textelegram).
+The script is also available from `GreasyFork` [here](https://greasyfork.org/en/scripts/24067-tex-for-telegram).
