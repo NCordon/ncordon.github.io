@@ -3,11 +3,32 @@
   <channel>
     <title>NCordon</title>
     <description>I'm Nacho. I study Mathematics and Computer Science degree at UGR. I started this blog to share things I daily do related to my degree. I specially like Maths</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 17:56:47 +0200</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 17:56:47 +0200</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 21 Nov 2016 21:48:25 +0100</pubDate>
+    <lastBuildDate>Mon, 21 Nov 2016 21:48:25 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.0</generator>
+    
+      <item>
+        <title>Doing several tests</title>
+        <description>&lt;p&gt;Testing code:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;foo&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'foo'&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+</description>
+        <pubDate>Mon, 21 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/test/2016/11/21/tests.html</link>
+        <guid isPermaLink="true">http://localhost:4000/test/2016/11/21/tests.html</guid>
+        
+        
+        <category>test</category>
+        
+      </item>
     
       <item>
         <title>LaTeX in Telegram Desktop</title>
@@ -34,8 +55,8 @@
 &lt;p&gt;The script is also available from &lt;code class=&quot;highlighter-rouge&quot;&gt;GreasyFork&lt;/code&gt; &lt;a href=&quot;https://greasyfork.org/en/scripts/24067-tex-for-telegram&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Oct 2016 00:00:00 +0200</pubDate>
-        <link>/latex/telegram/maths/2016/10/15/latex-in-telegram.html</link>
-        <guid isPermaLink="true">/latex/telegram/maths/2016/10/15/latex-in-telegram.html</guid>
+        <link>http://localhost:4000/latex/telegram/maths/2016/10/15/latex-in-telegram.html</link>
+        <guid isPermaLink="true">http://localhost:4000/latex/telegram/maths/2016/10/15/latex-in-telegram.html</guid>
         
         
         <category>latex</category>
@@ -86,8 +107,8 @@ that: &lt;script type=&quot;math/tex&quot;&gt;\delta \|f\|_{*} \le \|f\|_2 \le \
 
 </description>
         <pubDate>Sun, 02 Oct 2016 00:00:00 +0200</pubDate>
-        <link>/analysis/fourier-series/math/2016/10/02/spaces-where-norms-arent-equivalent.html</link>
-        <guid isPermaLink="true">/analysis/fourier-series/math/2016/10/02/spaces-where-norms-arent-equivalent.html</guid>
+        <link>http://localhost:4000/analysis/fourier-series/math/2016/10/02/spaces-where-norms-arent-equivalent.html</link>
+        <guid isPermaLink="true">http://localhost:4000/analysis/fourier-series/math/2016/10/02/spaces-where-norms-arent-equivalent.html</guid>
         
         
         <category>analysis</category>
