@@ -37,6 +37,9 @@ theme: minima
 paginate: 5
 #paginate_path: "/page:num/"
 
+# Excludes LICENSE file from generating
+exclude: ["LICENSE.md"]
+
 defaults:
   -
     scope:
@@ -51,3 +54,5 @@ defaults:
   #     type: "posts"
   #   values:
       
+
+
