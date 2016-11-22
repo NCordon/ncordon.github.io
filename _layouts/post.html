@@ -1,26 +1,31 @@
+---
+layout: default
+---
 
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-    tex2jax: {
+<article class="post">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      tex2jax: {
       inlineMath: [ ['$','$'], ['\(', '\)'] ],
       displayMath: [ ['$$','$$'] ],
       processEscapes: true,
-    }
-    });
-  </script>
-  <script type="text/javascript" async
-          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
-</head>
+      }
+      });
+    </script>
+    <script type="text/javascript" async
+            src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+  </head>
 
-<body>
-  <h1><a href="{{ page.external_link }}">{{ page.title }}</a></h1>
-  {{ content }}
-</body>
+  <header class="post-header">
+    <h1 class="post-title"> {{ page.title }} </h1>
+  </header>
+  
+  <body>
+    {{ content }}
+  </body>
 
-</html>
+</article>

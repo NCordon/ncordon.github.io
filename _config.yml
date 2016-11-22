@@ -30,7 +30,24 @@ kramdown:
   input: GFM
   hard_wrap: false
 
+encoding: utf-8
+
 theme: minima
 
 paginate: 5
 #paginate_path: "/page:num/"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "ncordon"
+  # -
+  #   scope:
+  #     path: ""
+  #     type: "posts"
+  #   values:
+      

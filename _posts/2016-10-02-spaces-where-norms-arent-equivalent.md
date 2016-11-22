@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Vector Space where norms aren't equivalent"
 date:   2016-10-02
 categories: analysis fourier-series math

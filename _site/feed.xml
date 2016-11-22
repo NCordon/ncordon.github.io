@@ -3,10 +3,10 @@
   <channel>
     <title>NCordon</title>
     <description>I'm Nacho. I study Mathematics and Computer Science degree at UGR. I started this blog to share things I daily do related to my degree. I specially like Maths</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Nov 2016 21:48:25 +0100</pubDate>
-    <lastBuildDate>Mon, 21 Nov 2016 21:48:25 +0100</lastBuildDate>
+    <link>http://localhost:4001/</link>
+    <atom:link href="http://localhost:4001/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 22 Nov 2016 01:23:51 +0100</pubDate>
+    <lastBuildDate>Tue, 22 Nov 2016 01:23:51 +0100</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -22,8 +22,8 @@
 
 </description>
         <pubDate>Mon, 21 Nov 2016 00:00:00 +0100</pubDate>
-        <link>http://localhost:4000/test/2016/11/21/tests.html</link>
-        <guid isPermaLink="true">http://localhost:4000/test/2016/11/21/tests.html</guid>
+        <link>http://localhost:4001/test/2016/11/21/tests.html</link>
+        <guid isPermaLink="true">http://localhost:4001/test/2016/11/21/tests.html</guid>
         
         
         <category>test</category>
@@ -48,6 +48,8 @@
 
 &lt;p&gt;I’ve written a public &lt;code class=&quot;highlighter-rouge&quot;&gt;gist&lt;/code&gt; &lt;a href=&quot;https://gist.github.com/NCordon/090a6c208e61a1059357d6e8fba03087&quot;&gt;here&lt;/a&gt; with the an &lt;code class=&quot;highlighter-rouge&quot;&gt;user.js GreaseMonkey&lt;/code&gt; extension to render equations properly in Telegram Desktop. I’ve only given it a try in &lt;code class=&quot;highlighter-rouge&quot;&gt;Firefox&lt;/code&gt;, and it works well!.&lt;/p&gt;
 
+&lt;script src=&quot;https://gist.github.com/NCordon/090a6c208e61a1059357d6e8fba03087.js&quot;&gt; &lt;/script&gt;
+
 &lt;p&gt;&lt;img src=&quot;/images/2016-10-15-latex-in-telegram-final-result.png&quot; alt=&quot;Sent message&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;To download it, &lt;code class=&quot;highlighter-rouge&quot;&gt;GreaseMonkey&lt;/code&gt; extension must be installed in the current browser, and it suffices to click &lt;code class=&quot;highlighter-rouge&quot;&gt;Raw&lt;/code&gt; from the &lt;code class=&quot;highlighter-rouge&quot;&gt;gist&lt;/code&gt; page, and it will pop up a confirmation to install it as an user script. To write inline &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt;, use a simple &lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt;. To write centered &lt;script type=&quot;math/tex&quot;&gt;\LaTeX&lt;/script&gt;, use &lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;.&lt;/p&gt;
@@ -55,8 +57,8 @@
 &lt;p&gt;The script is also available from &lt;code class=&quot;highlighter-rouge&quot;&gt;GreasyFork&lt;/code&gt; &lt;a href=&quot;https://greasyfork.org/en/scripts/24067-tex-for-telegram&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/latex/telegram/maths/2016/10/15/latex-in-telegram.html</link>
-        <guid isPermaLink="true">http://localhost:4000/latex/telegram/maths/2016/10/15/latex-in-telegram.html</guid>
+        <link>http://localhost:4001/latex/telegram/maths/2016/10/15/latex-in-telegram.html</link>
+        <guid isPermaLink="true">http://localhost:4001/latex/telegram/maths/2016/10/15/latex-in-telegram.html</guid>
         
         
         <category>latex</category>
@@ -107,8 +109,8 @@ that: &lt;script type=&quot;math/tex&quot;&gt;\delta \|f\|_{*} \le \|f\|_2 \le \
 
 </description>
         <pubDate>Sun, 02 Oct 2016 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/analysis/fourier-series/math/2016/10/02/spaces-where-norms-arent-equivalent.html</link>
-        <guid isPermaLink="true">http://localhost:4000/analysis/fourier-series/math/2016/10/02/spaces-where-norms-arent-equivalent.html</guid>
+        <link>http://localhost:4001/analysis/fourier-series/math/2016/10/02/spaces-where-norms-arent-equivalent.html</link>
+        <guid isPermaLink="true">http://localhost:4001/analysis/fourier-series/math/2016/10/02/spaces-where-norms-arent-equivalent.html</guid>
         
         
         <category>analysis</category>

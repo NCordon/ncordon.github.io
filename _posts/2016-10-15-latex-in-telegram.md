@@ -1,5 +1,4 @@
 ---
-layout: page
 title: "LaTeX in Telegram Desktop"
 date: 2016-10-15
 categories: latex telegram maths
@@ -20,6 +19,8 @@ Sent $$\LaTeX$$ as a rare encoding
 So I started finding a solution, and after one hour of trying to make this code work automatically (with `GreaseMonkey`), once started the browser, and realizing that I have to target only a part of the Telegram Desktop Window to be rendered, I arrived to an useful [MathJax Documentation](http://docs.mathjax.org/en/latest/advanced/typeset.html?highlight=queue) about doing so with `MathJax.Hub.Queue` and it worked out!.
 
 I've written a public `gist` [here](https://gist.github.com/NCordon/090a6c208e61a1059357d6e8fba03087) with the an `user.js GreaseMonkey` extension to render equations properly in Telegram Desktop. I've only given it a try in `Firefox`, and it works well!.
+
+{% gist NCordon/090a6c208e61a1059357d6e8fba03087 %}
 
 ![Sent message](/images/2016-10-15-latex-in-telegram-final-result.png)
 
