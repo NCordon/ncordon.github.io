@@ -141,7 +141,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 104)
   jekyll-paginate
-  minima
 
 RUBY VERSION
    ruby 2.3.0p0

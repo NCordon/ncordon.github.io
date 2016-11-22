@@ -54,29 +54,14 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
-  <head>
-    <meta charset="utf-8">
-    <title>Doing several tests</title>
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-      tex2jax: {
-      inlineMath: [ ['$','$'], ['\(', '\)'] ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-      }
-      });
-    </script>
-    <script type="text/javascript" async
-            src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-  </head>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title"> Doing several tests </h1>
+    <h1 class="post-title" itemprop="name headline">Doing several tests</h1>
+    <p class="post-meta"><time datetime="2016-11-21T00:00:00+01:00" itemprop="datePublished">Nov 21, 2016</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">ncordon</span></span></p>
   </header>
-  
-  <body>
+
+  <div class="post-content" itemprop="articleBody">
     <p>Testing code:</p>
 
 <figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
@@ -87,8 +72,9 @@
 </span></pre></td></tr></tbody></table></code></pre></figure>
 
 
-  </body>
+  </div>
 
+  
 </article>
 
       </div>

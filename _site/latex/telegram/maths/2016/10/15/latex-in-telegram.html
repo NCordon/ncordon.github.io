@@ -54,29 +54,14 @@
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
-  <head>
-    <meta charset="utf-8">
-    <title>LaTeX in Telegram Desktop</title>
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-      tex2jax: {
-      inlineMath: [ ['$','$'], ['\(', '\)'] ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-      }
-      });
-    </script>
-    <script type="text/javascript" async
-            src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-  </head>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title"> LaTeX in Telegram Desktop </h1>
+    <h1 class="post-title" itemprop="name headline">LaTeX in Telegram Desktop</h1>
+    <p class="post-meta"><time datetime="2016-10-15T00:00:00+02:00" itemprop="datePublished">Oct 15, 2016</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">ncordon</span></span></p>
   </header>
-  
-  <body>
+
+  <div class="post-content" itemprop="articleBody">
     <p>Yesterday <a href="https://github.com/m42">@M42</a>, a good friend of mine told me there was a partial solution to render <script type="math/tex">\LaTeX</script> equations in Telegram Desktop, <a href="http://www.math.ucla.edu/~robjohn/math/mathjax.html">ChatJax</a>, a code line that inserts a <code class="highlighter-rouge">&lt;script&gt;</code> html tag in the current page’s <code class="highlighter-rouge">&lt;head&gt;</code>, allowing sent <script type="math/tex">\LaTeX</script> code in a Telegram Desktop Window to render. This could be saved as a handy boomark and be executed every time we’d like to render sent equations.</p>
 
 <p>However, this had a big problem, appart from the obvious necessity of clicking the boomark every time we’d like to use it. If we started to use it in an open conversation, it would render the sent equations properly, but from now on, it would also try to render all non sent equations, producing a (curious) unwanted result.</p>
@@ -101,8 +86,9 @@
 
 <p>The script is also available from <code class="highlighter-rouge">GreasyFork</code> <a href="https://greasyfork.org/en/scripts/24067-tex-for-telegram">here</a>.</p>
 
-  </body>
+  </div>
 
+  
 </article>
 
       </div>
