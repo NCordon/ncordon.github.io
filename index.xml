@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nacho Cordón</title>
+    <link>https://ncordon.github.io/</link>
+    <description>Recent content on Nacho Cordón</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ncordon.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome to my website</title>
+      <link>https://ncordon.github.io/posts/welcome/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ncordon.github.io/posts/welcome/</guid>
+      <description>👋</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://ncordon.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ncordon.github.io/about/</guid>
+      <description>I am Spanish software engineer, based at London, UK.
+I studied a Bachelor&amp;rsquo;s degree on Computer Science and Mathematics at university of Granada, Spain. And a Master&amp;rsquo;s degree on Mathematics and Physics, in the same university.
+I currently work with Scala, developing microservices. I have also worked or done personal projects with Go, R or Python. I am a computer enthusiast and fan of difficult problems.
+If you are interested in my whole experience, here is my resume.</description>
+    </item>
+    
+  </channel>
+</rss>

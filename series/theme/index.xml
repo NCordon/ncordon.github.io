@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Theme on Nacho Cordón</title>
+    <link>https://ncordon.github.io/series/theme/</link>
+    <description>Recent content in Theme on Nacho Cordón</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ncordon.github.io/series/theme/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome to my website</title>
+      <link>https://ncordon.github.io/posts/welcome/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ncordon.github.io/posts/welcome/</guid>
+      <description>👋</description>
+    </item>
+    
+  </channel>
+</rss>
